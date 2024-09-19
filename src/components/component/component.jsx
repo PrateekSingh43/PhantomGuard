@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from 'next/image';
+
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 
@@ -63,7 +65,8 @@ export function Component() {
                   </Link>
                 </div>
               </div>
-              <img src="images\Hero.png" width="550" height="550" alt="PhantomGuard Protection" className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square" />
+              <Image src="/images/Hero.png" width="550" height="550" alt="PhantomGuard Protection" className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square" />
+
             </div>
           </div>
         </section>
@@ -112,7 +115,7 @@ export function Component() {
                   </li>
                 </ul>
               </div>
-              <img src="/images/features.png" width="550" height="310" alt="PhantomGuard Features" className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last" />
+              <Image src="/images/features.png" width="550" height="310" alt="PhantomGuard Features" className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last" />
             </div>
           </div>
         </section>
